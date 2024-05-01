@@ -1,0 +1,24 @@
+[0m11:59:00.259149 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10a531310>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10a547050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10a547690>]}
+
+
+============================== 11:59:00.261241 | 542912fc-985c-43ab-8216-6cc36ef2ea22 ==============================
+[0m11:59:00.261241 [info ] [MainThread]: Running with dbt=1.7.13
+[0m11:59:00.261604 [debug] [MainThread]: running dbt with arguments {'send_anonymous_usage_stats': 'True', 'profiles_dir': '/Users/migueltorres/.dbt', 'introspect': 'True', 'use_experimental_parser': 'False', 'static_parser': 'True', 'fail_fast': 'False', 'invocation_command': 'dbt init dbt_crash_course', 'no_print': 'None', 'write_json': 'True', 'partial_parse': 'True', 'log_path': 'logs', 'log_format': 'default', 'quiet': 'False', 'indirect_selection': 'eager', 'cache_selected_only': 'False', 'log_cache_events': 'False', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'debug': 'False', 'target_path': 'None', 'printer_width': '80', 'warn_error': 'None', 'use_colors': 'True'}
+[0m11:59:00.262349 [debug] [MainThread]: Starter project path: /opt/anaconda3/lib/python3.11/site-packages/dbt/include/starter_project
+[0m11:59:00.266205 [info ] [MainThread]: 
+Your new dbt project "dbt_crash_course" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m11:59:00.266462 [info ] [MainThread]: Setting up your profile.
