@@ -19,3 +19,12 @@ Youtube Link : https://www.youtube.com/watch?v=IDoejF6AFqs
         [2] EU
         Desired location option (enter a number)-> 
         NOTE: If you run -> Shell: dbt debug  -> there would be an error as there are no keys yet so they need to be created
+
+#5. Go to big query console.cloud.google.com/bigquery
+#6. Create a new project and select: dbt_crash_course
+#7. Find the YAML File -> Shell: find / -name "profiles.yml" 2>/dev/null   
+    -> 1) in warp it will allow you to open in VS CODE. 
+       2) in mac ⌘⇧G in the open dialog of the app
+
+
+
