@@ -22,3 +22,8 @@ Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
 Happy modeling!
 
 [0m11:59:00.266462 [info ] [MainThread]: Setting up your profile.
+[0m12:11:47.406172 [info ] [MainThread]: Profile dbt_crash_course written to /Users/migueltorres/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m12:11:47.420726 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 767.1974, "process_user_time": 2.736043, "process_kernel_time": 1.011846, "process_mem_max_rss": "200310784", "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m12:11:47.423456 [debug] [MainThread]: Command `dbt init` succeeded at 12:11:47.422765 after 767.20 seconds
+[0m12:11:47.424659 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1050a1f50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10a109710>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104fc0a90>]}
+[0m12:11:47.426206 [debug] [MainThread]: Flushing usage events
