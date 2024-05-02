@@ -12,7 +12,7 @@ Youtube Link : https://www.youtube.com/watch?v=IDoejF6AFqs
         Enter a number -> 1
         Authentication method -> 2 (Service Account)
         keyfile (/path/to/bigquery/keyfile.json)-> /Users/airscholar/.dbt/dbt-crash-course.json  
-        project (GCP project id)-> dbt-crash-course-10101
+        project (GCP project id)-> dbt-crash-course-10101   (This would later need to be updated with GCP actual number)
         dataset (the name of your dbt dataset)-> dbt-crash-course
         threads (1 or more)-> 1
         [1] US
@@ -25,6 +25,11 @@ Youtube Link : https://www.youtube.com/watch?v=IDoejF6AFqs
 #7. Find the YAML File -> to find the file -> Shell: find / -name "profiles.yml" 2>/dev/null   
     -> 1) in warp it will allow you to open in VS CODE. 
        2) in mac ⌘⇧G in the open dialog of the app
+#8. Source the key file in json from GCP corresponding to your service account
+    -> go to -> Options -> IAM & Admin/Service Accounts-> Enter the Service Account details -> create account
+    - Once created click on the email link and go to the keys menu a
+#9. Create new key, this will download a json file into your machine. Store the file in the same directory where the profiles.yml is
+#10. Update the key file credentials with the path of the downloaded file
 
 
 
