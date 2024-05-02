@@ -11,7 +11,7 @@ Youtube Link : https://www.youtube.com/watch?v=IDoejF6AFqs
     Shell: dbt init dbt_crash_course
         Enter a number -> 1
         Authentication method -> 2 (Service Account)
-        keyfile (/path/to/bigquery/keyfile.json)-> /Users/airscholar/.dbt/dbt-crash-course.json  
+        keyfile (/path/to/bigquery/keyfile.json)-> /Users/airscholar/.dbt/dbt-crash-course.json  (later in this tutorial it was changed to dbt_crash_course.json)
         project (GCP project id)-> dbt-crash-course-10101   (This would later need to be updated with GCP actual number)
         dataset (the name of your dbt dataset)-> dbt-crash-course
         threads (1 or more)-> 1
@@ -30,7 +30,9 @@ Youtube Link : https://www.youtube.com/watch?v=IDoejF6AFqs
     - Once created click on the email link and go to the keys menu a
 #9. Create new key, this will download a json file into your machine. Store the file in the same directory where the profiles.yml is
 #10. Update the key file credentials with the path of the downloaded file
-#11. Check if the set up is correct -> Shell: dbt debug (NOTE: a fix may be to change the directory to there dbt_project.yml )
+#11. Check if the set up is correct -> Shell: dbt debug (NOTE: a fix may be to change the directory to there dbt_project.yml ) If there are no
+     error messages this means that your project has been set up 
+#12. 
 
 
 
