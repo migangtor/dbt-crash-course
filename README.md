@@ -30,6 +30,7 @@ Youtube Link : https://www.youtube.com/watch?v=IDoejF6AFqs
     - Once created click on the email link and go to the keys menu a
 #9. Create new key, this will download a json file into your machine. Store the file in the same directory where the profiles.yml is
 #10. Update the key file credentials with the path of the downloaded file
+#11. Check if the set up is correct -> Shell: dbt debug (NOTE: a fix may be to change the directory to there dbt_project.yml )
 
 
 
