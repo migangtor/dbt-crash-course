@@ -11,7 +11,7 @@ Youtube Link : https://www.youtube.com/watch?v=IDoejF6AFqs
     Shell: dbt init dbt_crash_course
         Enter a number -> 1
         Authentication method -> 2 (Service Account)
-        keyfile (/path/to/bigquery/keyfile.json)-> https://www.youtube.com/watch?v=IDoejF6AFqs
+        keyfile (/path/to/bigquery/keyfile.json)-> /Users/airscholar/.dbt/dbt-crash-course.json  
         project (GCP project id)-> dbt-crash-course-10101
         dataset (the name of your dbt dataset)-> dbt-crash-course
         threads (1 or more)-> 1
@@ -22,7 +22,7 @@ Youtube Link : https://www.youtube.com/watch?v=IDoejF6AFqs
 
 #5. Go to big query console.cloud.google.com/bigquery
 #6. Create a new project and select: dbt_crash_course
-#7. Find the YAML File -> Shell: find / -name "profiles.yml" 2>/dev/null   
+#7. Find the YAML File -> to find the file -> Shell: find / -name "profiles.yml" 2>/dev/null   
     -> 1) in warp it will allow you to open in VS CODE. 
        2) in mac ⌘⇧G in the open dialog of the app
 
