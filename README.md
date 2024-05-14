@@ -34,6 +34,9 @@ Youtube Link : https://www.youtube.com/watch?v=IDoejF6AFqs
      error messages this means that your project has been set up 
 #12. Add your dataset by clicking add on within BigQuery star project by name as dbt-tutorial. This will load the dbt datasets 
 #13. Create a SQL file within models as customers.sql. The script must contain the code that you would use to generate the table customers 
+#14. You can also add a file to carry on tests. We do so by creating a file within the models folder as "schema.yml"
+#15. Generate documentation using shell as: dbt docs generate    
+#16. to Review the documentation use dbt docs serve
 
 
 
